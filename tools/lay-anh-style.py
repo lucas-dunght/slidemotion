@@ -1,7 +1,7 @@
-"""Lấy ảnh chụp slide mẫu của từng style từ repo SlideFly (cùng tác giả, cùng bộ style)
+"""Lấy ảnh chụp slide mẫu của từng style từ thư viện demo docs/gallery/ (gộp từ SlideFly cũ)
 về docs/assets/styles/<slug>-1.jpg, <slug>-2.jpg (ảnh thứ hai hiện khi rê chuột),
-kèm docs/assets/styles/demo.json: slug -> tên file deck demo trên trang SlideFly.
-Chạy từ gốc repo: python tools/lay-anh-style.py F:/Ck16/06-ma-nguon/slidefly"""
+kèm docs/assets/styles/demo.json: slug -> tên file deck demo trong docs/gallery/.
+Chạy từ gốc repo: python tools/lay-anh-style.py docs"""
 import json, re, sys, pathlib
 from PIL import Image
 

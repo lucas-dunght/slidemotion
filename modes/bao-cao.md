@@ -31,7 +31,7 @@ Cơ chế trong `scenes/cong-thuc.md`: mục 4 "Con số có nguồn", mục 5 "
 - Có slide **phụ lục** cho số liệu chi tiết và nguồn đầy đủ.
 
 ## Xuất PowerPoint
-Bộ xuất của SlideMotion đang làm (giai đoạn 3). Người dùng cần file .pptx ngay thì báo rõ và dùng skill `slidefly`; nếu chỉ trình chiếu thì giao HTML.
+Bộ xuất của SlideMotion đang làm (giai đoạn 3). Người dùng cần file .pptx ngay thì báo rõ là chưa xuất được; trước mắt giao HTML.
 
 ## Soát thêm cho chế độ này
 | Câu hỏi | Nếu "không" |

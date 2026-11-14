@@ -46,10 +46,10 @@ def roles(pairs, group):
     return bg, fg, ac, ac2
 
 
-# ảnh slide mẫu lấy từ SlideFly (tools/lay-anh-style.py); deck demo xem trên trang SlideFly
+# ảnh slide mẫu và deck demo nằm ở docs/gallery/ (gộp từ SlideFly cũ, tools/lay-anh-style.py)
 shots = root / 'docs' / 'assets' / 'styles'
 demos = json.loads((shots / 'demo.json').read_text(encoding='utf8')) if (shots / 'demo.json').exists() else {}
-demos = {k: 'https://andyluu98.github.io/slidefly/gallery/' + v for k, v in demos.items()}
+demos = {k: 'https://andyluu98.github.io/slidemotion/gallery/' + v for k, v in demos.items()}
 demos['claude-ivory'] = 'demos/claude-co-gi-moi.html'
 index = (root / 'styles' / 'INDEX.md').read_text(encoding='utf8')
 out, group = [], ''

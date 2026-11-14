@@ -132,7 +132,7 @@ Sửa tới khi qua hết. Không giao khi chưa tự xem.
 
 ### Bước 6. Bàn giao
 - Đường dẫn tuyệt đối, số slide, style, cách trình chiếu (mũi tên hoặc Space, F toàn màn hình, bấm nửa phải để tới).
-- PowerPoint chỉ xuất khi người dùng xin. Nói rõ hiệu ứng nào giữ nguyên, hiệu ứng nào hạ về gần nhất (theo tầng trong từ điển). Bộ xuất của SlideMotion chưa xong (giai đoạn 3): cần file .pptx ngay thì báo người dùng và dùng skill `slidefly`.
+- PowerPoint chỉ xuất khi người dùng xin. Nói rõ hiệu ứng nào giữ nguyên, hiệu ứng nào hạ về gần nhất (theo tầng trong từ điển). Bộ xuất của SlideMotion chưa xong (giai đoạn 3): cần file .pptx ngay thì báo người dùng là chưa xuất được và giao file HTML.
 - `giang-day`: nhắc bản phát tay: mở file, bấm Ctrl+P, chọn "Lưu dưới dạng PDF"; runtime tự trải mọi slide, hiện đủ các bước, tắt hiệu ứng khi in.
 
 ## 3. Gợi ý nghề
